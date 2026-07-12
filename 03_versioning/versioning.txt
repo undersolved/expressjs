@@ -1,0 +1,19 @@
+lets read about the semantic versioning of the node Versions
+
+current : 		"express": "^5.2.1"
+
+X.X.X
+
+1st bit --> major version
+2nd bit --> minor version
+3rd bit --> patch version
+
+minor bug fix (optional) backward compatible --> patch v ++ --> 5.2.2
+new functionality/feature added, but older features will also work--> minor v ++ --> 5.3.0
+
+change in the architecture, your code will break in the existing codebase --> major v ++ --> 5.2.
+
+carot symbol ˆ5.2.1 --> from 5.2.1 --> <5.x.x auto upadte, i dont wanna track
+
+~5.2.1 --> from 5.2.1 --> <5.2.x --> auto update
+
