@@ -1,6 +1,8 @@
-function add(a, b) {
+/* -------------------------------------named export using exports.------------------------------------- */
+exports.myAddfunction = function add(a, b) {
 	return a + b;
-}
+};
+/* -------------------------------------------------------------------------- */
 function sub(a, b) {
 	return a - b;
 }
